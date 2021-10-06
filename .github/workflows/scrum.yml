@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Discord post action step
         id: discord
-        uses: AAU-Dat/scrummaster-discord@v2.0
+        uses: AAU-Dat/scrummaster-discord@v3.0
         with:
           team: '["Andreas", "Daniel", "Elias", "Lars", "Oliver", "Raymond", "Tobias"]'
         env:
