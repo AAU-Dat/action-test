@@ -12,5 +12,5 @@ jobs:
         uses: AAU-Dat/automate-team-responsibilities@v1.0
         with:
           team: '["Daniel", "Lars", "Raymond", "Elias", "Tobias", "Andreas", "Oliver"]'
-          responsibilities: '[{"name": "Scrum master", "number": 2}, {"name": "Cake", "number": 1}, {"name": "Drinks", "number": 1}]'
+          responsibilities: '[{"name": "Scrum master", "random": false}, {"name": "Cake", "random": false}, {"name": "Drinks", "random": false}]'
           discord-webhook: ${{ secrets.DISCORD_WEBHOOK }}
